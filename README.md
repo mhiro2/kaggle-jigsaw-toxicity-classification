@@ -1,6 +1,7 @@
 # kaggle-jigsaw-toxicity-classification
 
 Part of 14th place solution to [Jigsaw Unintended Bias in Toxicity Classification Challenge](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification). (slightly modified by refactoring)
+Our solution is published in [here](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/discussion/100821).
 - Public LB: 12th (0.94655)
 - Private LB: 14th (0.94628)
 
