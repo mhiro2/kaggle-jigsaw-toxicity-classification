@@ -1,0 +1,37 @@
+# compiled files
+__pycache__/
+
+# files under ./input
+input/*.feather
+input/*.csv
+input/*.pkl
+input/*.npy
+input/*.gz
+input/*.bz2
+input/*.xz
+input/*.jpg
+input/*.jpeg
+input/*.png
+input/*.log
+
+# files under ./src
+src/*/*.bin
+src/*/*.pkl
+
+# jupyter
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# vscode
+.vscode/
+
+# computed features
+.cache/*
+
+# tmpdir
+tmp/*
+
+!.gitkeep
+
