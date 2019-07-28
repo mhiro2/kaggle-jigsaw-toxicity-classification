@@ -14,7 +14,7 @@ Our solution is published in [here](https://www.kaggle.com/c/jigsaw-unintended-b
 
 ## Usage
 
-### BERT-Base
+### BERT-Base and BERT-Large
 ```
 # NOTE: Apex ver. 0.1 is already installed in this image
 docker container run -it --name=bert --runtime=nvidia --ipc=host -v $PWD:/workspace/jigsaw nvcr.io/nvidia/pytorch:19.04-py3
@@ -27,6 +27,7 @@ pip install fastprogress
 
 # train BERT model
 python train_bert_base_full.py
+python train_bert_large_full.py
 ```
 
 ### GPT-2
